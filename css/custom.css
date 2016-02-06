@@ -1,0 +1,62 @@
+body{
+    background-color: #CDB79E }
+
+/* The carousel is the big banner of images on the home page 
+that rotates images like a carousel/merry-go-round rotates*/
+
+/* A margin set to auto, centers the images in the carousel*/
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+/* This removes the gradient image to the left and right sides of the
+carousel. Put comments around the 'background-image:none' part to see 
+what happens if you didn't include this code */
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+/* The navigation bar is the menu of your website. Change the color of
+the bar and the text. Keep in mind that it must be easy to read. Also
+feel free to chage the font */
+.navbar-custom {
+    background-color: #ffffff;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 14px
+}
+
+/* This changes the style of the font of links in the navbar*/
+.navbar-custom a {
+    color: #666666;
+    font-variant: small-caps;
+   
+}
+
+#myCarousel{
+	margin-bottom: 25px;
+}
+
+/* This changes the style of the captions surrounded by <H1> tags in 
+the carousel */
+.carousel-caption h1 {
+font-family:    Impact;
+font-size:      8em;
+color:          #64E3EE !important;
+}
+
+/* This changes the style of the captions surrounded by <p> tags in 
+the carousel */
+.carousel-caption p {
+font-family:    'arial';
+font-size:      14px;
+color:          #000000 !important;
+}
+
+.about p{
+	font-size:16px;
+}
+
+.about {
+	margin-top: 10px;
+}
